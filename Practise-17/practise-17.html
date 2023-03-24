@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>MY RESUME</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><label for="adi">Adı</label></td>
+                            <td><input type="text" id="adi" name="adi"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="soyadi">Soyadı</label></td>
+                            <td><input type="text" id="soyadi" name="soyadi"></td>
+                        </tr>
+                        <tr>
+                            <td>Cinsiyet</td>
+                            <td>
+                                <input type="radio" id="erkek" name="cinsiyet">
+                                <label for="">Erkek</label>
+                                <input type="radio" id="kadın" name="cinsiyet">
+                                <label for="">Kadın</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="dyeri">Doğum Yeri</label></td>
+                            <td>
+                                <select name="dyeri" id="dyeri">
+                                    <option disabled selected>Seçiniz</option>
+                                    <option value="34">İstanbul</option>
+                                    <option value="06">Ankara</option>
+                                    <option value="35">İzmir</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-Posta</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="abc@techproed.com"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="linkedln">Linkedln Adresi</label></td>
+                            <td><input type="text" id="linkedln" name="linkedln"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Telefon</label></td>
+                            <td><input type="tel" id="tel" name="tel"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" id="submit" name="submit"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Programlama Dilleri</td>
+                            <td>
+                                <input type="checkbox" id="python" name="python">
+                                <label for="python">Python</label><br>
+                                <input type="checkbox" id="java" name="java">
+                                <label for="java">Java</label><br>
+                                <input type="checkbox" id="js" name="js">
+                                <label for="js">Javascript</label><br>
+                                <input type="checkbox" id="php" name="php">
+                                <label for="php">PHP</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Resume Yükle</td>
+                            <td>
+                                <input type="file" id="cv" name="cv">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Başvuru Tarihi</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Adres</td>
+                            <td><textarea name="area" id="area" cols="30" rows="10"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
